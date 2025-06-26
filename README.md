@@ -58,3 +58,5 @@ create table public."TTDISPOSITIVOS" (
   constraint TTDISPOSITIVOS_pkey primary key (id)
 ) TABLESPACE pg_default;
 POR ULTIMO, UN DOCKER COMPOSE UP LANZARÁ LA DEMO EN LOCALHOST:3000
+PARA ACCEDER A LOS DATOS HISTORICOS, SE DEBE DESCARGAR EL CSV Y METERLO EN UNA CARPETA data 
+https://drive.google.com/file/d/1VyrwUcJwSx2e1uGRJK0-_Z3RDyYI1vJP/view?usp=sharing
