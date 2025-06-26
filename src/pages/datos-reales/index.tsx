@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import Mapa from '@/components/Mapa'
 
 const supabase = createClient(
-    'https://cxbtqiqdmlgpeslumwnx.supabase.co',
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN4YnRxaXFkbWxncGVzbHVtd254Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQzMjYwOTgsImV4cCI6MjA1OTkwMjA5OH0.Pb6k85LLfyQ_x7irtLnzbMROz3BrfL33Qk_Dp6T1FuI'
+  process.env.NEXT_PUBLIC_SUPABASE_LIST_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 )
 
 type Dispositivo = {
